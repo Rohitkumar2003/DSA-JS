@@ -29,12 +29,27 @@
     //         }
 
 // Sum of First Natural Number
+  // console.time();
 
-  const number = 100;
-    let cnt = 1;
-      let sum = 0;
-        while(cnt<=number){
-          sum+=cnt;
-          cnt++;
-        }
-        console.log(sum);
+  // const number = 10000000n;
+  // let cnt=0;
+  // let sum =0;
+  // while(cnt<=number){
+  //   sum+=cnt;
+  //   cnt++;
+  // }
+  
+  // console.log(sum);
+  // console.timeEnd()
+
+  // Product (Factorial of N)
+
+ const number = 5;
+let product = 1;
+let cnt=1;
+  while(cnt<=number){
+    product*=cnt;
+    cnt++;
+  }
+
+  console.log(product);
