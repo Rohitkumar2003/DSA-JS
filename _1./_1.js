@@ -44,12 +44,28 @@
 
   // Product (Factorial of N)
 
- const number = 5;
-let product = 1;
-let cnt=1;
-  while(cnt<=number){
-    product*=cnt;
-    cnt++;
-  }
+//  const number = 5;
+// let product = 1;
+// let cnt=1;
+//   while(cnt<=number){
+//     product*=cnt;
+//     cnt++;
+//   }
 
-  console.log(product);
+//   console.log(product);
+
+
+// sum of all Even Numbers up to N
+
+  const number = 5;
+  let sum = 0;
+  let cnt = 1;
+    while(cnt<=number){
+      if(cnt%2!==0) {
+        // console.log('No of Even Number Giver Value',cnt);
+       sum+=cnt
+      }
+      cnt++;
+    }
+
+    console.log(sum);
