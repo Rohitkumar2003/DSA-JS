@@ -73,9 +73,22 @@
 
 // Print all numbers divisible by 3 and upto 5 to N
 
-  const number = 30;
-    let cnt=1;
-      while(cnt<=number){
-        if(cnt%3==0 && cnt%5==0) console.log(cnt);
-        cnt++;
+  // const number = 30;
+  //   let cnt=1;
+  //     while(cnt<=number){
+  //       if(cnt%3==0 && cnt%5==0) console.log(cnt);
+  //       cnt++;
+  //     }
+
+  // find the sum of all Odd Numbers up to N
+
+   const number=10;
+  let cnt=1;
+  let sum = 0;
+    while(cnt<=number){
+      if(cnt%2 !== 0) {
+        sum+=cnt;
       }
+      cnt++;
+    }
+    console.log(sum);
